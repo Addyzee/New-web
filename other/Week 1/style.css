@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+    color: #777;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.mainheader{
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url(https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-blend-mode: multiply;
+    background-size:cover;
+    padding: 40px 0px 40px 0px;
+}
+a{
+    text-decoration: none;
+    color:cadetblue;
+}
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display: inline-block;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.mainnav{
+    text-align: center;
+    font-size: 1.3em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    display: block;
+
+}
+.nav a:hover{
+    background-color: rgba(255,255,255,0.3);
+} 
+.mainnav li{
+    padding:0% 5%;
+}
+.mainh1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 350%;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: normal;
+}
+.content{
+    margin: 0.5em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.sec-header{
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.images{
+    width: 540px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption{
+    text-align: center;
+}
+
